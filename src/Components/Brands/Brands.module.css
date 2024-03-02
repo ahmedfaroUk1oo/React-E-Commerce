@@ -1,0 +1,6 @@
+.buttoon:hover{
+    box-shadow: 1px 0px 8px 0px  rgba(10, 173, 10 , .8);
+    transition: .5s all;
+    
+    background-color: white;
+}

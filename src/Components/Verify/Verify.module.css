@@ -1,0 +1,23 @@
+.floating-label-group  , .floating{
+	position: relative;
+}
+
+    .floating-label  ,.label{
+		
+		color: #cccccc;
+		position: absolute;
+		pointer-events: none;
+		top: 15px;
+		left: 12px;
+		transition: all 0.1s ease;
+	}
+
+	input:focus ~ .label,
+	input:not(:focus):valid ~ .label {
+		top: -15px;
+		bottom: 0px;
+		left: 0px;
+		
+		opacity: 1;
+		color: #404040;
+	}
