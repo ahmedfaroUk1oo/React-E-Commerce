@@ -29,6 +29,7 @@ function App() {
   const routes = createHashRouter([
     {path : "" , element : < LayOut /> , children : [
       {path : "home" ,element :<Protected><Home /></Protected>},
+      {index : true ,element :<ProtectedAuth><Login /></ProtectedAuth>},
       {path : "brands" ,element :<Protected><Brands /></Protected>},
       {path : "categories" ,element :<Protected><Categories /></Protected>},
       {path : "products" ,element :<Protected><Products /></Protected>},
