@@ -41,7 +41,7 @@ async function GetSpecificCat(id,name) {
                 <meta charSet="utf-8" />
                 <title>Categories</title>
             </Helmet>
-      <div className="container py-5 m-auto">
+      <div className="container py-5 m-auto mt-5">
         <h2 className='text-center  fw-bold pb-5 text-main'>All Categories</h2>
         <div className="row g-3 text-center">
         {isLoading ? <Loader/> : null}

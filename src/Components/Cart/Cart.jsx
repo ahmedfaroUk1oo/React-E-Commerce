@@ -77,9 +77,10 @@ if(data.numOfCartItems == 0) {
                 <meta charSet="utf-8" />
                 <title>Cart</title>
             </Helmet>
-     <div className="container py-2">
-    <h2 className='fw-bold py-3 text-center text-main fs-2 fw-bold'>Shopping Cart</h2>
-    { isLoading? <Loader/> :  cartData ?   <section className="   bg-main-light py-4 rounded-2 px-2 ">
+     <div className="container py-2  d-flex min-vh-100 justify-content-center flex-column">
+    <h2 className='fw-bold py-3 text-center text-main fs-2 fw-bold mt-5'>Shopping Cart</h2>
+   <div className="cart">
+   { isLoading? <Loader/> :  cartData ?   <section className="   bg-main-light py-4 rounded-2 px-2 ">
       <div className="summary d-flex justify-content-between align-items-center py-3">
       <p className='fs-3 fw-bold m-0'>Total Price : <span className='text-main'>{cartData?.data?.totalCartPrice}</span></p>
       <button className='btn fs-5 fw-bold btn-danger' onClick={ClearedCartData}><i className="fa-solid fa-eraser"></i> Clear Cart</button>
@@ -116,6 +117,7 @@ if(data.numOfCartItems == 0) {
     <img src={emptyCart} alt="" className='' />
     <Link className='btn btn-success d-block w-50 m-auto' to='/home'>Continue Shopping</Link>
   </div>  }
+   </div>
       </div>
       </HelmetProvider>
   

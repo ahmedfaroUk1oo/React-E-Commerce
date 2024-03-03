@@ -47,7 +47,7 @@ export default function Verify() {
                 <meta charSet="utf-8" />
                 <title>Verify code</title>
             </Helmet>
-          <div className="container d-flex flex-column justify-content-center min-vh-100">
+          <div className="container d-flex flex-column justify-content-center min-vh-100 ">
         <h3 className='text-center py-4 fw-bold'>Verify Code</h3>
     
        <div className="verify bg-body-secondary p-3 rounded-2">

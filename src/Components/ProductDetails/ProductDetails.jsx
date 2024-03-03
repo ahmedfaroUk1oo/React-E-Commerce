@@ -61,7 +61,7 @@ export default function ProductDetails() {
                 <title>{productDetails?.title}</title>
             <meta name="keywords" content={productDetails?.slug} />
             </Helmet>
-      <div className="container py-5 d-flex flex-column justify-content-center min-vh-100">
+      <div className="container py-5 d-flex flex-column justify-content-center min-vh-100 ">
         <div className="row">
             {isLoading ? <Loader/> : <>
             <div className="col-md-4 py-3">

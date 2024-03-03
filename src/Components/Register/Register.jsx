@@ -57,7 +57,7 @@ async function callRegister (information) {
                 <meta charSet="utf-8" />
                 <title>Register</title>
             </Helmet>
-      <div className="container d-flex flex-column min-vh-100 justify-content-center ">
+      <div className="container d-flex flex-column min-vh-100 justify-content-center mt-5 ">
         <h3 className='my-3 text-center text-main fs-2 fw-bold '>Register Now</h3>
 
        <div className="register bg-body-secondary p-3 rounded-2 ">

@@ -64,9 +64,10 @@ useEffect(()=>{
                 <meta charSet="utf-8" />
                 <title>CheckOut</title>
             </Helmet>
-      <section className='py-5'>
+      <section className='py-5  d-flex justify-content-center flex-column min-vh-100'>
         <div className="container">
           <h2 className='fw-bold'>CheckOut...</h2>
+          <div className="checkOut">
           <form onSubmit={forms.handleSubmit}>
             <div className="phone form-group py-2">
               <label htmlFor="phone" className='py-2'>Phone Number</label>
@@ -89,6 +90,7 @@ useEffect(()=>{
            {isOnlinePayment ?  <button type='submit' className='btn btn-success bg-main'disabled={!(forms.isValid && forms.dirty)}>Online Payment</button> 
            : <button type='submit' className='btn btn-success bg-main'disabled={!(forms.isValid && forms.dirty)}>Cash Payment</button>}
           </form>
+          </div>
         </div>
       </section>
     </HelmetProvider>

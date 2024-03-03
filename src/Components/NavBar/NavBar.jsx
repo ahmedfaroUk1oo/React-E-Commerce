@@ -18,7 +18,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 start-0 end-0 z-3">
         <div className="container">
           <Link className="navbar-brand" to={"home"}>
             <img src={logo} alt="" />

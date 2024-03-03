@@ -36,7 +36,7 @@ export default function WishList() {
                 <title>Wish List</title>
             </Helmet>
    
-    <div className="container py-5">
+    <div className="container py-5 mt-5">
     <h2 className='fw-bold text-center text-main'>Your Favourite Items <i className="fa-solid fa-hand-holding-heart"></i></h2>
     <div className="row pt-4 ">
     {(isLoading ) ? <Loader /> : wishListData.length ? wishListData.map((product)=>

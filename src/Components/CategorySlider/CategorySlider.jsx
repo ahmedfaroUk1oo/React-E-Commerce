@@ -45,7 +45,7 @@ export default function CategorySlider() {
  
   return (
     <>
-     <div className="container py-5">
+     <div className="container py-5 mt-5">
       <h2>Show Popular Categories ...</h2>
         {loading? <Loader/> : null}
       <Slider className='py-2' {...settings}>

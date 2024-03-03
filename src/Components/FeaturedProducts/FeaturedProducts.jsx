@@ -60,7 +60,7 @@ function AddAndRemoveWishlist(id) {
 
   return (
     <>
-      <div className="container py-5">
+      <div className="container py-5 mt-5">
         <div className="search pb-5">
           <input type="text" className='form-control ' placeholder='Search For Product' onKeyUp={ FilteringProduct}  />
         </div>

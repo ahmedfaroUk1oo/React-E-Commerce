@@ -35,7 +35,7 @@ setLoading(false);
                 <meta charSet="utf-8" />
                 <title>Brands</title>
             </Helmet>
-<div className="container py-5">
+<div className="container py-5 mt-5">
   <h1 className='text-center  fw-bold pb-5 text-main'>All Brands</h1>
 <div className="row g-3 text-center">
   {isLoading ? <Loader/> : null}

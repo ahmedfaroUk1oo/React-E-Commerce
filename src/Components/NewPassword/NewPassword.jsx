@@ -61,7 +61,7 @@ try {
                 <meta charSet="utf-8" />
                 <title>New Password</title>
             </Helmet>
-         <div className="container d-flex justify-content-center flex-column min-vh-100">
+         <div className="container d-flex justify-content-center flex-column min-vh-100 ">
         <h3 className='text-center py-4 fw-bold text-main'>Reset New Password</h3>
        <div className="reset bg-body-secondary p-3 rounded-2">
        {msgError ? <div className='alert alert-danger'>{msgError}</div>:null}

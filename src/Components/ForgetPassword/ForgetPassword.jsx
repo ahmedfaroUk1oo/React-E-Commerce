@@ -62,7 +62,7 @@ export default function ForgetPassword() {
                 <meta charSet="utf-8" />
                 <title>Forget Password</title>
             </Helmet>
-      <div className="container d-flex flex-column justify-content-center min-vh-100">
+      <div className="container d-flex flex-column justify-content-center min-vh-100 ">
         <h3 className='text-center py-4 fw-bold text-main'>Reset Password</h3>
        <div className="forget bg-body-secondary p-3 rounded-2">
        {msgError ? <div className='alert alert-danger'>{msgError}</div>:null}

@@ -11,7 +11,7 @@ export default function NotFound() {
                 <meta charSet="utf-8" />
                 <title>Not Found</title>
             </Helmet>
-      <section className='container my-5 d-flex justify-content-center'>
+      <section className='container my-5 d-flex justify-content-center mt-5'>
         <img src={notFoundImg} className='w-50' alt="NotFoundPage" />
       </section>
     </HelmetProvider>

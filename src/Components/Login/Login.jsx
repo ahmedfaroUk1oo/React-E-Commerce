@@ -58,7 +58,7 @@ async function callLogin (information) {
                 <meta charSet="utf-8" />
                 <title>Login</title>
             </Helmet>
-      <div className="container min-vh-100 d-flex flex-column justify-content-center">
+      <div className="container min-vh-100 d-flex flex-column justify-content-center ">
       <h2 className='mb-3 text-center fw-bold text-main fs-2'>Login Now</h2>
       <div className="login bg-body-secondary p-3 rounded-2 py-5">
         {msgError ? <div className='alert alert-danger'>{msgError}</div>:null}

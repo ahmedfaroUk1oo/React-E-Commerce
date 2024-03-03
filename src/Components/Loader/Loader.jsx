@@ -5,7 +5,7 @@ import {  GridLoader } from 'react-spinners';
 export default function Loader() {
   return (
     <>
-        <div className="container d-flex justify-content-center">
+        <div className="container d-flex justify-content-center mt-5">
       <GridLoader color="#46C046"  className='  py-4' />
       </div>
     </>

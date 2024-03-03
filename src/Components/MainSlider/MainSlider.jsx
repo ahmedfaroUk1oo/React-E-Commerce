@@ -18,9 +18,9 @@ export default function MainSlider() {
   return (
     <>
       <div className="slider   my-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
+        <div className="container ">
+          <div className="row ">
+            <div className="col-md-12 mt-5">
             <Slider {...settings}>
       <img src={img1} className='w-100 rounded-2' height={400} alt="" />
       <img src={img2} className='w-100 rounded-2' height={400} alt="" />
